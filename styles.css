@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Merriweather';
+}
+body
+{
+    background:#05161A;
+}
+.container
+{
+    width: 400px;
+    margin: 60px auto;
+    padding: 10px;
+}
+.inputs 
+{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background:#107579;
+}
+#cityinput
+{
+    height: 4rem;
+    width: 20rem;
+    /* background:firebrick; */
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #05161A;
+    border-radius: 8px;
+    margin-right:4px ;
+}
+#cityinput:hover
+{
+    background-color: #05161A;
+    filter: drop-shadow(1px 1px 10px #6DA5C0);
+}
+#add
+{
+    
+    height: 3rem;
+    width: 6rem;
+    background:#294D61;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#add:hover
+{
+    background-color: #05161A;
+    filter: drop-shadow(1px 1px 10px #6DA5C0);
+}
+.inputs
+{
+    border-radius: 10px;
+}
+.items :hover 
+{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 10px #6DA5C0);
+}
+.display 
+{
+    text-align: center;
+    width: 400px;
+    /* background-color:darkslateblue; */
+}
+#cityoutput 
+{
+    color: #04214c;
+}
+.wrapper 
+{
+    margin: 0 9rem;
+    background-color:#107579;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2
+{
+    padding: 5px 0;
+    text-align: center;
+    background:#ebe2e2;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.wrapper p
+{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size:23px;
+}
+.wrapper h2 span
+{
+    font-size: 26px;
+    color: #04214c;
+}
+.wrapper p span
+{
+    color: #ebe2e2;
+    font-size: 25px;
+}
